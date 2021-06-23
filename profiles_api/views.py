@@ -1,7 +1,7 @@
 from django.http import response
 from django.shortcuts import render
 from rest_framework.views import APIView
-from rest_framework.respose import Respose
+from rest_framework.response import Response
 
 # Create your views here.
 class HelloApiView(APIView):
